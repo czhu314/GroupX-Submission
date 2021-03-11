@@ -75,3 +75,15 @@ which we believe will help the students reintegrate onto campus and do so in a f
 Whenever a lecturer or society leader gives out a points code (say for lecturers or extra-curricular activites), you can enter that code on this tab.
 This will not only go towards your total points, but also the leaderboard related to that subject (For example, points related to computer science
 will also put you on the "computer science leaderboard").
+
+
+
+# Future Implementation
+In the future, if we had more time to work on this project we would've tackled some of the more advanced
+and automated features.
+* Forgot my Password button
+* Email Verification
+* Automatically emailing people in the top 3 leaderboard positions
+* Fully responsive page design and mobile view
+* Messaging system between users
+
