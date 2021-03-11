@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: url(../images/exeterbandw.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.container {
+    width: 360px;
+    height: 385px;
+    position: absolute;
+    background: rgba(245, 245, 245, 0.8);
+    border-radius: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    animation: fadein 1s;
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.container h1 {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.email {
+    width: 260px;
+    height: 40px;
+    background: #f1f1f1b3;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.email input{
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 90%;
+    line-height: 37px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+
+.pbox {
+    width: 260px;
+    height: 40px;
+    background: #f1f1f1b3;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.pbox input {
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 90%;
+    line-height: 37px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+
+.pbox i{
+    position: relative;
+    left: 150px;
+    bottom: 27px;
+}
+
+.enter {
+    width: 260px;
+    height: 40px;
+    background: #003fb5;
+    border-radius: 10px;
+    margin: 15px auto;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.l1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 260px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+}
