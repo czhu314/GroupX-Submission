@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Events</title>
+</head>
+<body>
+<form action="addEventsPHP.php" method="post" >
+    <label for="eventName"><b> Event Names</b></label>
+    <input type="text" placeholder="Enter Name" name="eventName" id="eventName" >
+
+    Event Type:<select name="eventType" id="eventType">
+    <option value="Limited">Limited</option>
+    <option value="Social">Social</option>
+    <option value="Outdoors">Outdoors</option>
+    <option value="Special">Special</option>
+
+</select>
+
+    <label for="eventDescription"><b> Event Description</b></label>
+    <input type="text" placeholder="Enter Description" name="eventDescription" id="eventDescription" >
+
+    <input class="enter" type="submit" name="login" value="Register">
+</form>
+<a href="/staffhome.php">BACK</a>
+</body>
+</html>
